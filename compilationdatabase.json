@@ -1,0 +1,112 @@
+{
+    "dota2": {
+        "gamename": "dota%202",
+        "description": "",
+        "capsname": "Dota 2",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "Fortnite": {
+        "gamename": "Fortnite",
+        "description": "",
+        "capsname": "Fortnite",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "CSGO": {
+        "gamename": "csgo",
+        "description": "",
+        "capsname": "Counter Strike: Global Offensive",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "Hearthstone": {
+        "gamename": "Hearthstone",
+        "description": "",
+        "capsname": "Hearthstone",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "pubg": {
+        "gamename": "pubg",
+        "description": "",
+        "capsname": "Player Unknown Battlegrounds",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "LeagueOfLeggends": {
+        "gamename": "league%20of%20Leggends",
+        "description": "",
+        "capsname": "League Of Legends",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "runescape": {
+        "gamename": "Old%20School%20RuneScape",
+        "description": "",
+        "capsname": "Old School RuneScape",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "justChatting": {
+        "gamename": "Just%20Chatting",
+        "description": "",
+        "capsname": "Just Chatting",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "poker": {
+        "gamename": "poker",
+        "description": "",
+        "capsname": "poker",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "WorldOfWarcraft": {
+        "gamename": "World%20of%20Warcraft",
+        "description": "",
+        "capsname": "World of Warcraft",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    },
+    "Overwatch": {
+        "gamename": "overwatch",
+        "description": "",
+        "capsname": "Overwatch",
+        "twitchTHOT": "",
+        "thumbnailtext": "",
+        "thumbnailexist": 0,
+        "last_day_update": "14",
+        "notes": "this is the notes area "
+    }
+}

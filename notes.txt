@@ -1,0 +1,69 @@
+S123523DsaqdAS1D5236fdwDOKOeqweqPAq!wecKSDAPOJK
+
+
+$con=mysqli_init(); mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL);
+ mysqli_real_connect($con, "people1.mysql.database.azure.com", "administratorr@people1",
+  {your_password}, {your_database}, 3306);
+
+
+
+azure blob access
+
+from azure.storage.blob import (
+    BlockBlobService
+)
+import pandas as pd
+import io
+
+output = io.StringIO()
+head = ["col1" , "col2" , "col3"]
+l = [[1 , 2 , 3],[4,5,6] , [8 , 7 , 9]]
+df = pd.DataFrame (l , columns = head)
+print df
+output = df.to_csv (index_label="idx", encoding = "utf-8")
+print(output)
+
+accountName = "***"
+accountKey = "***"
+containerName = "test1"
+blobName = "test3.json"
+
+blobService = BlockBlobService(account_name=accountName, account_key=accountKey)
+
+blobService.create_blob_from_text('test1', 'OutFilePy.csv', output)
+
+
+
+
+======
+https://clips-media-assets2.twitch.tv/AT-cm%7C346785566-360.mp4
+https://clips-media-assets2.twitch.tv/AT-cm%7C339423030-360.mp4
+
+
+
+link2="31252187968"
+fulllink=("https://clips-media-assets2.twitch.tv/AT-cm%7" + var + "-360.mp4")
+
+print(fulllink)
+wget.download(link2, outputname)
+
+# links="one","two","three"
+for link in links: {
+    print(link)
+}
+outputname="multipage_source2.html"
+link2="https://www.twitch.tv/asmongold/videos?filter=clips&range=30d"
+wget.download(link2, outputname)
+
+
+
+# https://www.twitch.tv/asmongold/videos?filter=clips&range=30d
+
+
+
+runing a comand applicaitioin in python
+elink = "https://www.twitch.tv/asmongold/videos?filter=clips&range=30d"
+fite = wget.download(elink, output)
+cmd = "rm -y videos*"
+os.system(cmd)
+

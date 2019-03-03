@@ -4,3 +4,7 @@ main-downloader-static
 main-downloader-temp
 geckodriver.log
 twitch-uploader/main-downloader-temp
+text-to-speech/venv
+https://github.com/nologos/pythonstuff/blob/38cf9bf9a5536e917448f229da1aaca2b9eb7006/.gitignore#L8
+.idea
+.vscode

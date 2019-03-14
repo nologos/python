@@ -1,95 +1,69 @@
 {
-    "anita": {
-        "username": "sweet_anita",
-        "description": "Tourette legendary tic sweet anita dick fuck my bisquit dick banna overwatch ",
-        "capsname": "Sweet Anita",
-        "reserved": "y",
-        "thumbnailtext": "",
-        "thumbnailexist": 4,
-        "last_update_week": "01"
-    },
-    "lirik": {
-        "username": "lirik",
-        "description": " twtitch play through FPS ",
-        "capsname": "Lirik",
-        "thumbnailtext": "",
+    "montanablack88": {
+        "username": "montanablack88",
+        "last_update_week": "09",
+        "description": "Fortnite epic gamers astro german  ",
         "thumbnailexist": 1,
-        "last_update_week": "01"
-    },
-    "sodapoppin": {
-        "username": "sodapoppin",
-        "description": " twitch thot random shit and games i want to fuck my dog guy",
-        "capsname": "Sodapoppin",
         "thumbnailtext": "",
-        "thumbnailexist": 5,
-        "last_update_week": "00"
-    },
-    "destiny": {
-        "username": "destiny",
-        "description": "irl stream twitch thot",
-        "capsname": "Destiny",
-        "reserved": "y",
-        "thumbnailtext": "",
-        "thumbnailexist": 2,
-        "last_update_week": "01"
-    },
-    "lucia_omnomnom": {
-        "username": "lucia_omnomnom",
-        "description": "irl stream twitch thot",
-        "capsname": "Lucia Omnomnom",
-        "reserved": "y",
-        "thumbnailtext": "",
-        "thumbnailexist": 3,
-        "last_update_week": "00"
-    },
-    "LotsOfBunnies": {
-        "username": "LotsOfBunnies",
-        "description": "irl stream witch thot ",
-        "capsname": "LotsOfBunnies",
-        "reserved": "y",
-        "thumbnailtext": "",
-        "thumbnailexist": 1,
-        "last_update_week": "01"
-    },
-    "forsen": {
-        "username": "forsen",
-        "description": " twitch IRL random games ",
-        "capsname": "Forsen",
-        "thumbnailtext": "",
-        "thumbnailexist": 2,
-        "last_update_week": "00"
+        "capsname": "Montanablack"
     },
     "tenderlybae": {
         "username": "tenderlybae",
+        "last_update_week": "05",
         "description": " Twitch IRL twitch thots facemask russian",
-        "capsname": "Tenderly Bae",
-        "reserved": "y",
-        "thumbnailtext": "",
         "thumbnailexist": 4,
-        "last_update_week": "00"
-    },
-    "testuser": {
-        "username": "notwitch",
-        "description": "just a test user",
-        "capsname": "ignore this",
         "thumbnailtext": "",
-        "thumbnailexist": 0,
-        "last_update_week": "00"
+        "capsname": "Tenderly Bae",
+        "twitchTHOT": "y"
     },
-    "montanablack88": {
-        "username": "montanablack88",
-        "description": "Fortnite epic gamers astro german  ",
-        "capsname": "Montanablack",
-        "thumbnailtext": "",
+    "LotsOfBunnies": {
+        "username": "LotsOfBunnies",
+        "last_update_week": "09",
+        "description": "irl stream witch thot ",
         "thumbnailexist": 1,
-        "last_update_week": "00"
+        "thumbnailtext": "",
+        "capsname": "LotsOfBunnies",
+        "twitchTHOT": "y"
     },
     "asmongold": {
         "username": "asmongold",
+        "last_update_week": "09",
         "description": "wow dark souls big dick twitch thot redneck bald stupid epic gamer meme review offensive dank meme compilation hilarious ",
-        "capsname": "Asmongold",
-        "thumbnailtext": "",
         "thumbnailexist": 5,
-        "last_update_week": "00"
+        "thumbnailtext": "",
+        "capsname": "Asmongold"
+    },
+    "forsen": {
+        "username": "forsen",
+        "last_update_week": "09",
+        "description": " twitch IRL random games ",
+        "thumbnailexist": 2,
+        "thumbnailtext": "",
+        "capsname": "Forsen"
+    },
+    "amouranth": {
+        "username": "amouranth",
+        "last_update_week": "05",
+        "description": " Stupit money hungry twitch thot ",
+        "thumbnailexist": 3,
+        "thumbnailtext": "",
+        "capsname": "Amouranth"
+    },
+    "kandyland": {
+        "username": "kandyland",
+        "last_update_week": "04",
+        "description": "Twitch female streamer ",
+        "thumbnailexist": 2,
+        "thumbnailtext": "",
+        "capsname": "Kandyland"
+    },
+    "anita": {
+        "username": "sweet_anita",
+        "last_update_week": "09",
+        "description": "Tourette legendary tic sweet anita dick fuck my bisquit dick banna overwatch ",
+        "thumbnailexist": 4,
+        "thumbnailtext": "",
+        "capsname": "Sweet Anita",
+        "twitchTHOT": "y"
     }
 }

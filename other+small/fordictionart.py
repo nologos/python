@@ -1,3 +1,5 @@
+# example of python dictionaries | dictionary 
+
 
 sales = {
     'AKs05': {'price': 22.99, 'quantity': 1},
@@ -17,5 +19,7 @@ for index, sale in sales.items():
     if index in costs:
         res = (sale["price"] - costs[index]) * sale["quantity"]
         print(index, "made profit of £", res)
+
+
 
 

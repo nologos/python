@@ -2,20 +2,13 @@ from gtts import gTTS
 import os
 
 try:
-    #a = input("What you want me to say: ")
-    #a = unicode(a, "utf-8")
-    tts = gTTS(text=(os.popen('xsel').read()), lang="en")
+    tts = gTTS(text=(os.popen('xsel').read()), lang="en")           # GTTS - google speach api, os.popen - execute comand, xsel - return selected text
     
-    testfile = "/tmp/temp.mp3"
-    tts.save(testfile)
+    testfile = "/tmp/temp.mp3"                                      # create a var filename
+    tts.save(testfile)                                              # save GTTS to var
 
-    os.system("cvlc --play-and-exit --rate 1.7 /tmp/temp.mp3")
-    print("\033[H\033[J")
-    os.unlink(testfile)
+    os.system("cvlc --play-and-exit --rate 1.7 /tmp/temp.mp3")      # play in vlc hiden exit after 
+    print("\033[H\033[J")                                           # cleasrs the screen
+    os.unlink(testfile)                                             # better way to remove the file 
 except UnicodeDecodeError:
-    print("Some characters are not supported.")
-
-
-
-
-#selected_text=(os.popen('xsel').read())
+    print("Some characters are not supported.")                     # error handling

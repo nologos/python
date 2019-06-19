@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# dev 1.0
+
 import os  # required to call youtube-upload
 import requests  # required for download direct links
 from selenium import webdriver  # required for scrape inspect links

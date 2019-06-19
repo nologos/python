@@ -70,27 +70,31 @@ def create_dependacies():
 
     
 def scrape_get_links_from_twitch_inspect_html(scrapeurl):
-    my_cwd = os.getcwd()
-    dir1 = my_cwd + "/main-downloader-temp/inspectlinks/"
 
-    # scrapeurl="https://www.twitch.tv/asmongold/clips?filter=clips&range=30d"
-    options = webdriver.FirefoxOptions()
-    options.headless = True
-    browser = webdriver.Firefox(firefox_options=options)  # replace with .Firefox(), or with the browser of your choice
-    url = str(scrapeurl)
-    browser.get(url)  # navigate to the page
-    uglyhtml = browser.page_source
-    browser.close()
+# tab this ================================================
+my_cwd = os.getcwd()
+dir1 = my_cwd + "/main-downloader-temp/inspectlinks/"
 
-    soup = bs(uglyhtml, "html.parser")
-    psoup = bs.prettify(soup)
+scrapeurl="https://www.twitch.tv/tenderlybae/clips?filter=clips&range=7d"
+options = webdriver.FirefoxOptions()
+options.headless = True
+browser = webdriver.Firefox(firefox_options=options)  # replace with .Firefox(), or with the browser of your choice
+url = str(scrapeurl)
+browser.get(url)  # navigate to the page
+uglyhtml = browser.page_source
+browser.close()
 
-    pritiname = (dir1 + "priti" + str(random.randint(10000, 99999)) + ".html")
-    open(pritiname, "w").write(str(psoup.encode("utf8")))
+print(browser.set_window_rect)
 
-    return (pritiname)
+soup = bs(uglyhtml, "html.parser")
+psoup = bs.prettify(soup)
 
+pritiname = (dir1 + "priti" + str(random.randint(10000, 99999)) + ".html")
+open(pritiname, "w").write(str(psoup.encode("utf8")))
 
+return (pritiname)
+
+# tab this ================================================
 def scrape_transform_to_download_links(htmloftwitchinspect):
     beautifulscrape = htmloftwitchinspect
     read = open(beautifulscrape, "r").read()
